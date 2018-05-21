@@ -1,9 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Data.SqlClient;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace SampleCSharpProject
 {
@@ -193,9 +190,7 @@ namespace SampleCSharpProject
         /// <summary>
         /// Remove Product from database
         /// </summary>
-        /// <param name="ItemNum">The Item number for the product.</param>
-        /// <param name="ItemName">The Product Name</param>
-        /// <param name="ItemDesc">The Item Description</param>
+        /// <param name="Num">The Item number for the product.</param>
         static void RemoveProduct(int Num)
         {
             using (SqlConnection conn = new SqlConnection(
@@ -259,6 +254,7 @@ namespace SampleCSharpProject
                     }
                 }
             }
+            products.Sort((x, y) => x.m_ItemNum.CompareTo(y.m_ItemNum));
             foreach (Product iter in products)
             {
                 Console.WriteLine(iter);
