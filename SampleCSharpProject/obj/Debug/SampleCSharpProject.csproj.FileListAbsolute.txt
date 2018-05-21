@@ -1,0 +1,5 @@
+C:\Users\Nathaniel\Documents\Visual Studio 2015\Projects\SampleCSharpProject\SampleCSharpProject\bin\Debug\SampleCSharpProject.exe.config
+C:\Users\Nathaniel\Documents\Visual Studio 2015\Projects\SampleCSharpProject\SampleCSharpProject\bin\Debug\SampleCSharpProject.exe
+C:\Users\Nathaniel\Documents\Visual Studio 2015\Projects\SampleCSharpProject\SampleCSharpProject\bin\Debug\SampleCSharpProject.pdb
+C:\Users\Nathaniel\Documents\Visual Studio 2015\Projects\SampleCSharpProject\SampleCSharpProject\obj\Debug\SampleCSharpProject.exe
+C:\Users\Nathaniel\Documents\Visual Studio 2015\Projects\SampleCSharpProject\SampleCSharpProject\obj\Debug\SampleCSharpProject.pdb
